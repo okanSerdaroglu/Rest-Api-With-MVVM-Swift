@@ -13,6 +13,7 @@
 		3D14C35024A3E1E400D4DF68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D14C34E24A3E1E400D4DF68 /* Main.storyboard */; };
 		3D14C35224A3E1E600D4DF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D14C35124A3E1E600D4DF68 /* Assets.xcassets */; };
 		3D14C35524A3E1E600D4DF68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D14C35324A3E1E600D4DF68 /* LaunchScreen.storyboard */; };
+		3D14C35D24A3E89F00D4DF68 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D14C35C24A3E89F00D4DF68 /* CryptoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3D14C35124A3E1E600D4DF68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D14C35424A3E1E600D4DF68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D14C35624A3E1E600D4DF68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D14C35C24A3E89F00D4DF68 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3D14C35124A3E1E600D4DF68 /* Assets.xcassets */,
 				3D14C35324A3E1E600D4DF68 /* LaunchScreen.storyboard */,
 				3D14C35624A3E1E600D4DF68 /* Info.plist */,
+				3D14C35C24A3E89F00D4DF68 /* CryptoTableViewCell.swift */,
 			);
 			path = CryptoCrazy;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D14C35D24A3E89F00D4DF68 /* CryptoTableViewCell.swift in Sources */,
 				3D14C34D24A3E1E400D4DF68 /* ViewController.swift in Sources */,
 				3D14C34924A3E1E400D4DF68 /* AppDelegate.swift in Sources */,
 				3D14C34B24A3E1E400D4DF68 /* SceneDelegate.swift in Sources */,
